@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.body-home,
+.body-login {
+    background-image: url(../img/schoolicon.png);
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.black-fill {
+    
+    background: rgba(0, 0, 0, 0.5);
+    min-height: 100vh;
+}
+
+#homenav {
+    background: rgba(255, 255, 255, 0, 0) !important;
+}
+
+.welcome-text {
+    min-height: 80vh;
+}
+
+.welcome-text img {
+    width: 100px;
+}
+
+.welcome-text h4 {
+    color: #eee;
+    font-size: 51px;
+}
+
+.welcome-text p {
+    color: #222;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 5px;
+    border-radius: 4px;
+    /* width: 80vh; */
+}
+
+#txt {
+    width: 80vh;
+}
+
+#About {
+    min-height: 100vh;
+}
+
+#About .card-1 {
+    max-width: 600px;
+    width: 90%;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#About .card-1 h5 {
+    font-family: 'Lobster', cursive;
+}
+
+#Contact {
+    min-height: 100vh;
+}
+
+#Contact form {
+    max-width: 600px;
+    width: 90%;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#Contact form h3 {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+
+textarea {
+    resize: none;
+}
+
+
+.login {
+    max-width: 500px;
+    width: 90%;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.login h3 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.input-paww {
+    background: #fff;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 5px;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    height: 90%;
+}
+
+.input-paww input {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    font-size: 20px;
+    color: #555;
+}
+
+.input-paww img {
+    width: 25px;
+    cursor: pointer;
+}
+
+.n-table {
+    max-width: 800px;
+}
+
+.form-w {
+    max-width: 600px;
+    width: 100%;
+}
